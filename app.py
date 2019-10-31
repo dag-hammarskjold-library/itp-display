@@ -6,7 +6,7 @@ from config import DATABASE_CONSTRING
 
 
 app = Flask(__name__)
-test="just a test"
+test="just a test 02"
 
 # Route Definition
 
