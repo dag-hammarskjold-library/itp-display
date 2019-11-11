@@ -427,14 +427,18 @@ Come back to this section!
     font-size: 8pt;
     text-decoration: underline;
 }
-
 .tab1 {
     margin-left: 20px; 
 }
 .tab2 {
     margin-left: 40px; 
 }
-
+.tab3 {
+	text-indent: 50px;
+} 
+.tab4 {
+	text-indent: -3em;
+}
 span {
     display: block;
  }
