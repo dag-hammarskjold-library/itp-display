@@ -15,7 +15,7 @@ To be discussed:
     font-family: "Arial", sans-serif;
     font-weight: bold;
     font-size: 11px;
-    margin-left: 20px;
+    margin-left: 10px;
 
     /*
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, bold
@@ -38,7 +38,7 @@ To be discussed:
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
-    text-indent: -5em; 
+    margin-left: 20px;
 
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, 
