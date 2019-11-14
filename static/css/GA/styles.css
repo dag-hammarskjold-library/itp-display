@@ -9,13 +9,40 @@ To be discussed:
 > Hyperlinks: Some are in bold, some not. How to handle style wise?
 */
 
+ul,
+li {
+    list-style-type: none;
+}
+
+.separateColumn {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    -webkit-column-gap: 3em;
+    -moz-column-gap: 3em;
+    column-gap: 3em;
+}
+
+.background {
+    background: grey;
+}
+
+.page {
+    border: 1px solid;
+    background: white;
+    height: 600px;
+}
+
+.mycontent {
+    border: 1px solid black;
+    background: green;
+}
 
 .sorentry {
     color: black;
     font-family: "Arial", sans-serif;
     font-weight: bold;
     font-size: 8pt;
-
     /*
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, bold
     Complex Script Font: Times New Roman, Kern at 7 pt, 
@@ -37,7 +64,6 @@ To be discussed:
     font-style: normal;
     font-weight: normal;
     font-size: 8pt;
-
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, 
     Complex Script Font: Times New Roman, Kern at 7 pt, 
@@ -55,7 +81,6 @@ To be discussed:
     font-style: normal;
     font-size: 8pt;
     margin-left: 20px;
-    
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, 
     Complex Script Font: Times New Roman, Kern at 7 pt, 
@@ -85,7 +110,7 @@ To be discussed:
     Tab stops: 3.25", Centered */
 }
 
-.pagesubheader{
+.pagesubheader {
     color: black;
     font-family: Arial, sans-serif;
     font-style: normal;
@@ -94,14 +119,13 @@ To be discussed:
     text-align: center;
 }
 
-.pageheader2{
+.pageheader2 {
     color: black;
     font-family: Arial, sans-serif;
     font-style: normal;
     font-size: 8pt;
     text-align: center;
     text-transform: uppercase;
-
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, 
     Complex Script Font:Times New Roman, Kern at 7 pt,
@@ -116,7 +140,8 @@ To be discussed:
     color: #000000;
     font-family: Arial, sans-serif;
     font-style: normal;
-    font-size: 8pt; /* 14px */
+    font-size: 8pt;
+    /* 14px */
     text-align: center;
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, 
@@ -134,13 +159,14 @@ a:link {
     color: blue;
     font-family: Arial, sans-serif;
     text-decoration: underline;
-/*  font-weight: bold; */
+    /*  font-weight: bold; */
     font-size: 8pt;
 }
+
 a:visited {
     color: purple;
     font-family: Arial, sans-serif;
-  /*  font-weight: bold; */
+    /*  font-weight: bold; */
     font-size: 8pt;
     text-decoration: underline;
 }
@@ -182,7 +208,8 @@ a:visited {
     color: #000000;
     font-family: Arial, sans-serif;
     font-style: normal;
-    font-size: 8pt; /* 8px */
+    font-size: 8pt;
+    /* 8px */
     font-weight: normal;
     line-height: normal;
     /* 
@@ -203,10 +230,9 @@ a:visited {
     color: #000000;
     font-family: Arial, sans-serif;
     font-style: normal;
-    font-size: 8pt; 
+    font-size: 8pt;
     font-weight: normal;
     line-height: normal;
-    
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, 
     Complex Script Font: Times New Roman, Kern at 7 pt, 
@@ -225,10 +251,10 @@ a:visited {
     color: #000000;
     font-family: Arial, sans-serif;
     font-style: normal;
-    font-size: 8pt; /* 8px*/
+    font-size: 8pt;
+    /* 8px*/
     font-weight: normal;
     line-height: normal;
-    
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, 
     Complex Script Font: Times New Roman, Kern at 7 pt, 
@@ -299,7 +325,7 @@ a:visited {
 
 .notearea {
     font-family: Arial, sans-serif;
-  /* 
+    /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt,
     Language: Do not check spelling or grammar, 
     Complex Script Font:Times New Roman, Kern at 7 pt, 
@@ -309,7 +335,7 @@ a:visited {
     Text Direction: Left-to-right, 
     Alignment: Left
     Line spacing: single,  
-    Line and Page Breaks: Keep lines together */  
+    Line and Page Breaks: Keep lines together */
 }
 
 .itshead {
@@ -334,7 +360,8 @@ a:visited {
     color: #000000;
     font-family: Arial, sans-serif;
     font-style: normal;
-    font-size: 8pt; /* 8px */
+    font-size: 8pt;
+    /* 8px */
     line-height: normal;
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, 
@@ -352,7 +379,8 @@ a:visited {
     color: #000000;
     font-family: Arial, sans-serif;
     font-style: normal;
-    font-size: 8pt; /* 8px */
+    font-size: 8pt;
+    /* 8px */
     font-weight: normal;
     line-height: normal;
     /* 
@@ -391,12 +419,13 @@ a:visited {
 Come back to this section!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-.symbolNote{
+.symbolNote {
     color: #000000;
     font-family: Arial, sans-serif;
     font-style: italic;
     font-size: 8pt;
 }
+
 
 /*
 
