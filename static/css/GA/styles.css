@@ -43,6 +43,7 @@ li {
     font-family: "Arial", sans-serif;
     font-weight: bold;
     font-size: 8pt;
+    >>>>>>>3bb4235dd95dfc7f5aba6961ca03ceb71ac4f009
     /*
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, bold
     Complex Script Font: Times New Roman, Kern at 7 pt, 
@@ -64,6 +65,7 @@ li {
     font-style: normal;
     font-weight: normal;
     font-size: 8pt;
+    >>>>>>>3bb4235dd95dfc7f5aba6961ca03ceb71ac4f009
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, 
     Complex Script Font: Times New Roman, Kern at 7 pt, 
@@ -81,6 +83,7 @@ li {
     font-style: normal;
     font-size: 8pt;
     margin-left: 20px;
+    >>>>>>>3bb4235dd95dfc7f5aba6961ca03ceb71ac4f009
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, 
     Complex Script Font: Times New Roman, Kern at 7 pt, 
@@ -97,7 +100,7 @@ li {
     font-family: Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 12pt;
+    font-size: 16px;
     text-align: center;
     text-transform: uppercase;
     /* 
@@ -115,7 +118,7 @@ li {
     font-family: Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 8pt;
+    font-size: 11px;
     text-align: center;
 }
 
@@ -123,7 +126,7 @@ li {
     color: black;
     font-family: Arial, sans-serif;
     font-style: normal;
-    font-size: 8pt;
+    font-size: 11px;
     text-align: center;
     text-transform: uppercase;
     /* 
@@ -175,9 +178,11 @@ a:visited {
     color: #000000;
     font-family: Arial, sans-serif;
     font-style: normal;
-    font-size: 8pt;
+    font-size: 11px;
     font-weight: normal;
-    line-height: normal;
+    line-height: 1em;
+    /*line-height: 70%;
+    line-height: 14px;*/
     text-align: center;
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, Bold, 
@@ -191,10 +196,12 @@ a:visited {
     color: #000000;
     font-family: Arial, sans-serif;
     font-style: normal;
-    font-size: 8pt;
+    font-size: 11px;
     text-align: center;
     font-weight: normal;
-    line-height: normal;
+    line-height: 1em;
+    /*line-height: 70%;
+    line-height: 14px;
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, 
     Complex Script Font: Times New Roman, Kern at 7 pt, 
@@ -211,7 +218,9 @@ a:visited {
     font-size: 8pt;
     /* 8px */
     font-weight: normal;
-    line-height: normal;
+    line-height: 1em;
+    /*line-height: 70%;
+    line-height: 14px;
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, 
     Complex Script Font: Times New Roman, Kern at 7 pt, 
@@ -273,8 +282,11 @@ a:visited {
     color: black;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    font-size: 12pt;
+    font-size: 16px;
     text-transform: uppercase;
+    line-height: 1em;
+    /*line-height: 70%;
+    line-height: 14px;
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 9 pt, Bold, 
     Language: Do not check spelling or grammar, 
@@ -291,8 +303,12 @@ a:visited {
     color: #000000;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    font-size: 12pt;
+    font-size: 16px;
     text-decoration: underline;
+    line-height: 1em;
+    /*line-height: 70%;
+    line-height: 14px;
+
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 9 pt, Bold, Underline, 
     Language: Do not check spelling or grammar, 
@@ -308,7 +324,10 @@ a:visited {
     color: #000000;
     font-family: Arial, sans-serif;
     font-style: normal;
-    font-size: 8pt;
+    font-size: 11px;
+    line-height: 1em;
+    /*line-height: 70%;
+    line-height: 14px;
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt,
     Language: Do not check spelling or grammar, 
@@ -342,8 +361,10 @@ a:visited {
     color: #000000;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    line-height: normal;
-    font-size: 9pt;
+    line-height: 1em;
+    font-size: 12px;
+    /*line-height: 70%;
+    line-height: 14px;
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 9 pt, Bold, 
     Language: Do not check spelling or grammar, 
@@ -382,7 +403,9 @@ a:visited {
     font-size: 8pt;
     /* 8px */
     font-weight: normal;
-    line-height: normal;
+    line-height: 1em;
+    /*line-height: 70%;
+    line-height: 14px;
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt,
     Language: Do not check spelling or grammar, 
@@ -400,9 +423,11 @@ a:visited {
     color: #000000;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    font-size: 9pt;
+    font-size: 12px;
     text-align: center;
-    line-height: normal;
+    line-height: 1em;
+    /*line-height: 70%;
+    line-height: 14px;
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 9 pt, Bold, 
     Complex Script Font: Times New Roman, Kern at 7 pt, 
@@ -423,7 +448,7 @@ Come back to this section!
     color: #000000;
     font-family: Arial, sans-serif;
     font-style: italic;
-    font-size: 8pt;
+    font-size: 11px;
 }
 
 
@@ -456,14 +481,18 @@ Come back to this section!
     font-size: 8pt;
     text-decoration: underline;
 }
-
 .tab1 {
     margin-left: 20px; 
 }
 .tab2 {
     margin-left: 40px; 
 }
-
+.tab3 {
+	text-indent: 50px;
+} 
+.tab4 {
+	text-indent: -3em;
+}
 span {
     display: block;
  }
