@@ -15,6 +15,7 @@ To be discussed:
     font-family: "Arial", sans-serif;
     font-weight: bold;
     font-size: 11px;
+    margin-left: 20px;
 
     /*
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, bold
@@ -37,6 +38,7 @@ To be discussed:
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
+    text-indent: -5em; 
 
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, 
@@ -54,7 +56,8 @@ To be discussed:
     font-family: Arial, sans-serif;
     font-style: normal;
     font-size: 11px;
-    margin-left: 20px;
+    margin-left: 40px;
+
     
     /* 
     Font: (Asian) Times New Roman, (Default) Arial, 8 pt, 
@@ -66,85 +69,6 @@ To be discussed:
     Line spacing:  single, 
     Line and page breaks: Keep lines together */
 }
-
-/* --ADDED SORNOTE INDENTED STYLES INCLUDING UPPERCASE
-
-.sornote40 {
-    color: black;
-    font-family: Arial, sans-serif;
-    font-style: normal;
-    font-size: 11px;
-    margin-left: 40px;
-    textransform: none;
-}
-.sornote60 {
-    color: black;
-    font-family: Arial, sans-serif;
-    font-style: normal;
-    font-size: 11px;
-    margin-left: 60px;
-    textransform: none;  
-}
-.sornote80 {
-    color: black;
-    font-family: Arial, sans-serif;
-    font-style: normal;
-    font-size: 11px;
-    margin-left: 80px;
-    textransform: none;
-}
-.sornoteU40 {
-    color: black;
-    font-family: Arial, sans-serif;
-    font-style: normal;
-    font-size: 11px;
-    margin-left: 40px;
-    textransform: uppercase; 
-}
-.sornoteU60 {
-    color: black;
-    font-family: Arial, sans-serif;
-    font-style: normal;
-    font-size: 11px;
-    margin-left: 60px;
-    textransform: uppercase; 
-}
-.sornoteU80 {
-    color: black;
-    font-family: Arial, sans-serif;
-    font-style: normal;
-    font-size: 11px;
-    margin-left: 80px;
-    textransform: uppercase;   
-}
-
-INDENTS 2 LINES OF TEXT AFTER THE FIRST
-.sornote-2 {
-    color: black;
-    font-family: Arial, sans-serif;
-    font-style: normal;
-    font-size: 11px;
-    text-indent: -2em; 
-}
-
-INDENTS 3 LINES OF TEXT AFTER THE FIRST
-.sornote-3 {
-    color: black;
-    font-family: Arial, sans-serif;
-    font-style: normal;
-    font-size: 11px;
-    text-indent: -3em;   
-}
-
-INDENTS 4 LINES OF TEXT AFTER THE FIRST
-.sornote-4 {
-    color: black;
-    font-family: Arial, sans-serif;
-    font-style: normal;
-    font-size: 11px;
-    text-indent: -4em; 
-}
---INDENTED SORNOTE STYLES END HERE */ 
 
 .pageheader {
     color: black;
