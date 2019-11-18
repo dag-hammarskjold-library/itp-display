@@ -1,0 +1,203 @@
+.sorentry {
+    color: black;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 10px;
+    line-height: 1em;
+}
+
+.sornorm {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    margin-left: 20px;
+    line-height: 1em;
+}
+
+.sornote {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    margin-left: 40px;
+    line-height: 1em;
+}
+
+.pageheader {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pagesubheader {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: center;
+}
+
+.pageheader2 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pagefooter {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    text-align: center;
+}
+
+a:link {
+    color: blue;
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+    font-size: 11px;
+}
+
+a:visited {
+    color: purple;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+.itmeet1 {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1em;
+    text-align: center;
+}
+
+.itmeet2 {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+.itpage1 {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    /* 8px */
+    font-weight: normal;
+    line-height: 1em;
+}
+
+.itpage2 {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+.itpage3 {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+.headstyle {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+.subhstyle {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+    line-height: 1em;
+}
+
+.entrystyle {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 1em;
+}
+
+.notearea {
+    font-family: Arial, sans-serif;
+}
+
+.itshead {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1em;
+    font-size: 12px;
+}
+
+.itssubhead {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 1em;
+}
+
+.itsentry {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+.repshead {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1em;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+Come back to this section!
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.symbolNote {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 11px;
+}

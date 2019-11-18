@@ -8,16 +8,20 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-   <link rel="stylesheet" href="{{ url_for('static', filename='css/GA/styles.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/GA/styles.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/GA/yls.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/GA/mansour.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/GA/cynthia.css') }}" />
 
-    <title>Index to Speeches by Speaker</title>
+    <title>Index to Speeches - Speakers</title>
 </head>
 
 <body>
-
-
-        
-        <div class="separateColumn">      
+    <div>
+        <p><a href="{{url_for('main')}}">Main Menu</a></p>
+        <hr>
+    </div>
+        <div class="separateColumn shadow">      
                 <ul>
                 {% for record in records | groupby('itshead') | sort %}
                     <li><span> <strong>{{ record.grouper }}</strong></span>
@@ -37,8 +41,6 @@
                  {% endfor %}                                 
                 </ul>
         </div>      
-
-
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
