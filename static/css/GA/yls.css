@@ -1,0 +1,23 @@
+ul,
+li {
+    list-style-type: none;
+}
+
+.separateColumn {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
+    column-gap: 1em;
+}
+
+.background {
+    background: grey;
+}
+
+.page {
+    border: 1px solid;
+    background: white;
+    height: 600px;
+}
