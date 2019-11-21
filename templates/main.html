@@ -1,16 +1,6 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/GA/yls.css') }}" />
-  
-    <title>Main</title>
+{% extends "base1.html" %}
+    {% block title %} Main {% endblock %}
+    {% block content %}
 
         <style>
       .bd-placeholder-img {
@@ -28,36 +18,26 @@
         }
       }
     </style>
-</head>
 
-<body>
+  <div class="container">
+    <div class="jumbotron mt-3 txt-center">
+      <h1>ITP display project</h1>
+      <p class="lead"><h5>This sub project facilitates the display and styling of the ITP Sections along with transformed data from a “snapshot”.</h5></p>
+    </div>
 
-<div class="container">
-  <div class="jumbotron mt-3 txt-center">
-    <h1>ITP display project</h1>
-    <p class="lead"><h5>This sub project facilitates the display and styling of the ITP Sections along with transformed data from a “snapshot”.</h5></p>
-  </div>
-
-  <div class="shadow text-center">
-        <h1> Pages available: </h1>
-        <hr>
-        <ol>
-            <li> <a href="{{url_for('itpp_itpsor')}}">Supplements to Official Records : itpsor </a></li>
-            <li> <a href="{{url_for('itpp_itpitsc')}}">Index to Speeches – Corporate names / countries : itpitsc </a></li>
-            <li> <a href="{{url_for('itpp_itpitsp')}}">Index to Speeches – Speakers : itpitsp</a></li>
-            <li> <a href="{{url_for('itpp_itpitss')}}">Index to Speeches – Subjects : itpitss </a></li>
-        </ol>
-        <br>
-        <hr>
-        <br>
-  </div>
+    <div class="shadow text-center">
+          <h1> Pages available: </h1>
+          <hr>
+          <ol>
+              <li> <a href="{{url_for('itpp_itpsor')}}"  onclick="loading();">Supplements to Official Records : itpsor </a></li>
+              <li> <a href="{{url_for('itpp_itpitsc')}}" onclick="loading();">Index to Speeches – Corporate names / countries : itpitsc </a></li>
+              <li> <a href="{{url_for('itpp_itpitsp')}}" onclick="loading();">Index to Speeches – Speakers : itpitsp</a></li>
+              <li> <a href="{{url_for('itpp_itpitss')}}" onclick="loading();">Index to Speeches – Subjects : itpitss </a></li>
+          </ol>
+          <br>
+          <hr>
+          <br>
+    </div>
 
 </div>
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-
-</html>
+{% endblock %}   

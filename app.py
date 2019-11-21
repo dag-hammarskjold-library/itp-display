@@ -24,7 +24,7 @@ def main():
 def itpp_itpsor():
     myRecords=myCollection.find()
     records=myRecords
-    return render_template("itpsor.html",records=records)
+    return render_template("itpsor.html",records=records,number=records.count())
 
 @app.route("/itpp_itpitsp")
 def itpp_itpitsp():
